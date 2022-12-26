@@ -1,0 +1,310 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fffc00;
+  margin: 0;
+  padding: 0;
+  font-family: Graphik, Helvetica, sans-serif;
+}
+header {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.icon,
+.head,
+.icon2 {
+  flex: 1;
+  height: 100px;
+  padding: 0px;
+}
+.icon1 {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.head {
+  flex: 2;
+
+  margin: 0;
+  text-align: center;
+}
+
+.spacing {
+  margin-top: 60px;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.icon2 {
+  padding: 20px;
+}
+.btn {
+  border-radius: 20px;
+  background-color: rgb(19, 18, 18);
+  padding: 15px 18px;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+.btn2 {
+  background-color: #fff;
+  color: black;
+}
+.box {
+  display: flex;
+}
+.boxin {
+  width: 500px;
+  padding-left: 80px;
+  padding-top: 35px;
+}
+.text1 {
+  font-size: 55px;
+  margin-top: 20px;
+}
+.text2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.boxin1 {
+  flex: 1;
+  
+}
+.img1 {
+  margin-left: 200px;
+  width: 700px;
+}
+.btn3 {
+  border-radius: 20px;
+  background-color: rgb(19, 18, 18);
+  padding: 15px 18px;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+  
+}
+.box2 {
+  display: flex;
+ 
+  
+}
+.boxin2 {
+ margin-top: 5rem;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  
+}
+.img2 {
+  width: 80px;
+
+  margin-top: 20px;
+}
+.absolute {
+    position: absolute;
+    top: -62px;
+}
+.boxin3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.sizeing{
+   padding-top: 200px  ;
+   font-size: 60px ;
+
+}
+.sizeing input{
+  border-radius: 30px;
+  padding: 15px 25px;
+  border: none;
+}
+.sizeing select{
+  border-radius: 30px;
+  padding:12px 15px ;
+  border: none;
+}
+.inbox1 button{
+padding: 15px 20px;
+border: none;
+background-color: black;
+color: #fff;
+ border-radius: 30px;
+}
+.box3{
+ display: flex;
+}
+.b1{
+width: 850px;
+padding: 250px 120px;
+
+}
+.b1 p{
+  font-size: 55px;
+  
+}
+.b1 select{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.b1 input{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.b1 button{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+  background-color: black;
+  color: #fff;
+
+}
+.box4{
+   display: flex;
+   
+}
+.x1{
+ flex: 1;
+  
+  padding-left: 55px;
+}
+.x2 p{
+  font-size: 75px;
+}
+.x2{
+  padding: 250px 55px;
+}
+.x2 select{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.x2 input{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.x2 button{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+  background-color: black;
+  color: #fff;
+  
+}
+.box5{
+  
+  display: flex;
+}
+
+.in1{
+  flex: 1;
+ 
+  padding: 250px 100px;
+}
+.in1 p{
+  font-size: 75px;
+}
+.in2{
+  padding-right: 50px;
+}
+.in1 select{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.in1 input{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+
+}
+.in1 button{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+  background-color: black;
+  color: #fff;
+  
+}
+.box6{
+  display: flex;
+  flex: 2;
+ 
+ 
+}
+.o1{
+  flex: 1;
+  display: flex;
+  padding-left: 600px;
+}
+.o1 select{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+ 
+
+}
+.o1 input{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+}
+.bt{
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+ background-color: black;
+  color: #fff;
+}
+.svg{
+ 
+ padding-left: 80px;
+}
+.space{
+  margin-top: 35px;
+  margin-left: 35px;
+  background-color: #fffc00;
+  border-radius: 30px;
+  padding: 12px 15px ;
+  border: none;
+  
+}
+.box7{
+  display:flex ;
+  background-color: aqua;
+  justify-content: center;
+  flex: 1;
+
+}
+button:active{
+ transform: translate(4px);
+background-color: white;
+ 
+}
+.btn2:active{
+  transform: translate(4px);
+  background-color: rgb(21, 19, 19);
+}
+a:hover{
+  background-color: rgb(250, 240, 240);
+}
